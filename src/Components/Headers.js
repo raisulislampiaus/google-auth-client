@@ -10,7 +10,8 @@ const Headers = () => {
         try {
             const response = await axios.get("https://google-auth-mern.vercel.app/login/sucess", { withCredentials: true });
 
-            setUserdata(response.data.user)
+            setUserdata(response.data.user);
+            console.log(response.data.user);
            
         } catch (error) {
             console.log("error", error)
