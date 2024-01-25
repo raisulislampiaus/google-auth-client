@@ -40,7 +40,11 @@ const Headers = () => {
                                 Object?.keys(userdata)?.length > 0 ? (
                                     <>
                                     <li style={{color:"black",fontWeight:"bold"}}>{userdata?.displayName}</li>
-                                        
+                                         <li>
+                                            <NavLink to="/dashboard">
+                                                Dashboard
+                                            </NavLink>
+                                        </li>
                                         <li onClick={logout}>Logout</li>
                                         <li>
                                             <img src={userdata?.image} style={{ width: "50px", borderRadius: "50%" }} alt="no-images" />
