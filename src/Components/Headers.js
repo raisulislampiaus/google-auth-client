@@ -20,7 +20,7 @@ const Headers = () => {
 
     // logoout
     const logout = ()=>{
-        window.open("https://google-auth-mern.vercel.app/logout","_self")
+        window.open("http://google-auth-mern.vercel.app/logout","_self")
     }
 
     useEffect(() => {
