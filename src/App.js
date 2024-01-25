@@ -4,7 +4,7 @@ import Home from './Components/Home';
 import Headers from './Components/Headers';
 import Login from './Components/Login';
 import Dashboard from './Components/Dashboard';
-import Error from './Components/Error';
+
 import { Routes, Route } from "react-router-dom"
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         
         <Route path='/' element={<Login />} />
         <Route path='/dashboard' element={<Dashboard />} />
-        <Route path='*' element={<Error />} />
+        
       </Routes>
     </>
   );
