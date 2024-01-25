@@ -5,7 +5,6 @@ import axios from "axios"
 
 const Headers = () => {
     const [userdata, setUserdata] = useState({});
-    console.log("response", userdata)
 
     const getUser = async () => {
         try {
